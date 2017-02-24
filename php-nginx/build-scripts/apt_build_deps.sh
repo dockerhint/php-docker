@@ -22,8 +22,6 @@ set -xe
 
 # Tools needed for building from source.
 BUILD_TOOLS=" \
-    curl \
-    ca-certificates \
     autoconf \
     bison \
     file \
