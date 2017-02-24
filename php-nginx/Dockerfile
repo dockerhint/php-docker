@@ -14,7 +14,7 @@
 
 # Dockerfile for PHP 5.6/7.0 using nginx as the webserver.
 
-FROM gcr.io/google_appengine/debian8
+FROM debian
 
 RUN apt-get update -y && \
     apt-get -y upgrade && \
