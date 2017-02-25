@@ -121,8 +121,8 @@ if [ -f "${APP_DIR}/composer.json" ]; then
 fi
 
 # Lock down the DOCUMENT_ROOT
-chown -R root.www-data ${DOCUMENT_ROOT}
-chmod -R 744 ${DOCUMENT_ROOT}
+# chown -R root.www-data ${DOCUMENT_ROOT}
+# chmod -R 744 ${DOCUMENT_ROOT}
 
 # Change the www-data's shell back to /usr/sbin/nologin
 chsh -s /usr/sbin/nologin www-data
